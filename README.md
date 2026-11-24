@@ -75,5 +75,11 @@ CARLA and CarMaker are not installed here and there is no network, so **no CARLA
 2. Test on a plant family *not* used in training (e.g. train on level-1 mismatch, test with different tyre shapes).
 3. Tune DQN properly or use PPO/SAC with continuous steering; add integral action.
 4. Implement constrained MPC (steering and slip-angle constraints) with a QP solver.
-5. More optimiser seeds (≥20) and the hyperparameter sensitivity of each optimiser before making any ranking claim.
-6. Re-examine the cost weights (duration vs tracking) since they drive the ranking against MPC/DQN.
+
+   **##Extra**
+1. python highway_env_validate.py --selftest
+2. python highway_env_validate.py --controller GA-RainAware-DR --rain 0.0 0.25 0.5 0.75 1.0 --speed 20 25 30 --reps 10 --out results/highway_env_ga_dr.csv
+3. python highway_env_validate.py --all --reps 10 --out results/highway_env_all.csv
+4. python highway_env_validate.py --controller GA-RainAware-DR --rain 0.75 --speed 25 --reps 1 --render
+6. More optimiser seeds (≥20) and the hyperparameter sensitivity of each optimiser before making any ranking claim.
+7. Re-examine the cost weights (duration vs tracking) since they drive the ranking against MPC/DQN.
