@@ -1,0 +1,5 @@
+controller,J,fail_pct,rmse_m,final_err_m,friction_util,duration_s,speed_loss_pct,jerk,p_vs_RainAware
+Hand-tuned,12.76 ± 23.15,8.0,0.156,0.015,0.54,3.00,0.0,9.5,7.1e-51
+GA-RainAware,4.36 ± 0.58,0.0,0.056,0.036,0.51,2.92,0.0,5.9,-
+GA-Fixed,4.46 ± 0.50,0.0,0.097,0.021,0.44,2.75,0.0,3.7,1.1e-04
+GA-Dry,11.30 ± 23.19,7.0,0.082,0.023,0.67,2.57,0.0,9.0,1.4e-36

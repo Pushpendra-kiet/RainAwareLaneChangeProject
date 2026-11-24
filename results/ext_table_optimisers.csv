@@ -1,0 +1,5 @@
+optimiser,test_J_mean_sd,best_seed,worst_seed,fail_pct_mean,n_seeds_with_failures,wallclock_s,p_vs_GA_MannWhitney
+GA,4.58 ± 0.16,4.36,4.80,0.00,0,36,-
+PSO,5.02 ± 1.03,4.38,6.80,0.67,2,36,0.84
+CMA-ES,4.74 ± 0.52,4.33,5.31,0.40,2,63,0.84
+NSGA-II,5.91 ± 0.62,5.54,7.02,0.00,0,36,0.01
